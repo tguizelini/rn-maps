@@ -2,6 +2,7 @@
   package="com.reactnativemaps">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
       android:name=".MainApplication"
@@ -13,7 +14,7 @@
 
       <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyAvlhWaC5-eob9rrDIJGw7zXRPGA15GK64" />
+        android:value="AIzaSyAvlhWaC5-eob9rrDIJGw7zXRPGA15GK64"/>
 
       <activity
         android:name=".MainActivity"
